@@ -10,6 +10,10 @@ router.get('/', function(req, res, next) {
       {feat: 'It is flexible'},
       {feat: 'It\'s resourcefull '},
     ],
+    quotes: `
+      <p class="italic">It's awesome</p> &mdash; Me
+      <p class="italic">So cool</p> &mdash; Random person
+    `,
   }
   res.render('index', data);
 });
