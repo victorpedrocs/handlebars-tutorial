@@ -4,11 +4,11 @@ This repository is a single page, using **node.js** as the server with **express
 The page shows **Handlebar's** features as you follow the headers.
 
 ### The video
-<div style="text-align: center;">
+<p align="center">
 <a href="https://www.youtube.com/watch?v=4HuAnM6b2d8">
 <img src="https://img.youtube.com/vi/4HuAnM6b2d8/mqdefault.jpg">
 </a>
-</div>
+</p>
 
 ### How to run
 * `npm install`
@@ -17,6 +17,6 @@ The page shows **Handlebar's** features as you follow the headers.
 Thank you <a href="https://www.youtube.com/derekbanas">Derek Banas</a> for awesome tutorials.
 
 ## The page
-<div style="text-align: center;">
+<p align="center">
     <img src="public/images/screenshot.png">
-</div>
+</p>
