@@ -58,3 +58,11 @@
 <h3>{{title}}</h3>
 <p>&mdash;{{author}}</p>
 {{/with}}
+
+<h2>Partials</h2>
+<p>You can use divide repetitive code in partials</p>
+<ul class="inline">
+    {{#each videos}}
+        <li>{{> youtube_thumb }}</li>
+    {{/each}}
+</ul>

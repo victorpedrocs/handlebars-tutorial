@@ -16,6 +16,7 @@ var app = express();
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
 require('./views/helpers'); // set the helpers
+hbs.registerPartials(__dirname+'/views/partials');
 hbs.localsAsTemplateData(app);
 app.locals.lang = 'pt';
 

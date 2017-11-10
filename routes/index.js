@@ -19,6 +19,12 @@ router.get('/', function(req, res, next) {
       title: 'The Lord of The Rings',
       author: 'J. R. R. Tolkien',
     },
+    videos: [
+      {videoId: 'wSNa5b1mS5Y'},
+      {videoId: '4HuAnM6b2d8'},
+      {videoId: 'SPaw1ETzS2c'},
+      {videoId: '1srD3Mdvf50'},
+    ],
   }
   res.render('index', data);
 });
