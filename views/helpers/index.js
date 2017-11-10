@@ -21,6 +21,15 @@ const helpersObject = {
     
         return new hbs.handlebars.SafeString(result);
     },
+    globalOptions(options) {
+        let lang = options.data.lang;
+        if (lang === 'en') {
+            return 'You can have global options';
+        }
+        else {
+            return 'Você pode usar opções globais';
+        }
+    },
 }
 
 

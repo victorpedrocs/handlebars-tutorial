@@ -16,7 +16,8 @@ var app = express();
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
 require('./views/helpers'); // set the helpers
-
+hbs.localsAsTemplateData(app);
+app.locals.lang = 'pt';
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
