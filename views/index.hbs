@@ -36,5 +36,11 @@
     Large
 {{/makeRadio}}
 
-
+<p>Or you can execute different blocks like this</p>
+<p>Are 1 and 2 equal?</p>
+{{#ifeq 2 "2" }}
+{{successText "Numbers are equal"}}
+{{else}}
+{{dangerText "Numbers not equal"}}
+{{/ifeq}}
 
