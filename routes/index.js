@@ -14,6 +14,7 @@ router.get('/', function(req, res, next) {
       <p class="italic">It's awesome</p> &mdash; Me
       <p class="italic">So cool</p> &mdash; Random person
     `,
+    sunnyDay: true,
   }
   res.render('index', data);
 });

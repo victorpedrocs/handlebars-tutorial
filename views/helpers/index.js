@@ -46,6 +46,10 @@ const helpersObject = {
         if(a == b) return options.fn(this);
         else return options.inverse(this);
     },
+    if (data, options) {
+        if(data) return options.fn(this)
+        else return options.inverse(this)
+    }
 }
 
 
