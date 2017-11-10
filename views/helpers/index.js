@@ -3,6 +3,7 @@ hbs.handlebars = require('handlebars');
 
 const helpersObject = {
     makeLink: (text, href) => new hbs.handlebars.SafeString(`<a href="${href}">${text}</a>`),
+    dangerText: text => new hbs.handlebars.SafeString(`<span class="text-danger">${text}</span>`),
 }
 
 
