@@ -30,6 +30,18 @@ const helpersObject = {
             return 'Você pode usar opções globais';
         }
     },
+    makeRadio(name, options) {
+        let radioList  = options.fn();
+        radioList = radioList.trim().split('\n');
+        let output = '';
+    
+        for(let i in radioList) {
+            let item = radioList[i].trim();
+            output += `<input type="radio" name="${name}" value="${item}"> ${item} <br>`;
+        }
+    
+        return output;
+    },
 }
 
 
