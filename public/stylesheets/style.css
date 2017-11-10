@@ -8,4 +8,26 @@ a {
 h1 {
   color: #999; }
 
+.italic {
+  font-style: italic; }
+
+.text-danger {
+  color: DarkRed;
+  text-decoration: underline;
+  text-transform: uppercase; }
+
+.text-success {
+  color: ForestGreen;
+  text-decoration: underline;
+  text-transform: uppercase; }
+
+.up-case {
+  text-transform: uppercase; }
+
+.low-case {
+  text-transform: lowercase; }
+
+.capitalize {
+  text-transform: capitalize; }
+
 /*# sourceMappingURL=style.css.map */

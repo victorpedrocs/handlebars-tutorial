@@ -31,3 +31,6 @@ npm-debug.log
 
 # MacOS File
 .DS_Store
+
+# .map Files
+*.map
