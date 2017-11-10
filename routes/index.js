@@ -15,6 +15,10 @@ router.get('/', function(req, res, next) {
       <p class="italic">So cool</p> &mdash; Random person
     `,
     sunnyDay: true,
+    book: {
+      title: 'The Lord of The Rings',
+      author: 'J. R. R. Tolkien',
+    },
   }
   res.render('index', data);
 });

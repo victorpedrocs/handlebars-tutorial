@@ -49,7 +49,8 @@ const helpersObject = {
     if (data, options) {
         if(data) return options.fn(this)
         else return options.inverse(this)
-    }
+    },
+    with: (context, options) => options.fn(context)
 }
 
 
